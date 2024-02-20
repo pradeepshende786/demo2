@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: source_file
+    database: testdb
+    schema: public
+    tables:
+    - name: raw_listings
+    - name: raw_reviews
+    - name: raw_hosts
